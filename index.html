@@ -15,7 +15,7 @@
     />
     
     <script type="module" crossorigin src="/project-NightCoders/assets/index-d56cb5ef.js"></script>
-    <link rel="stylesheet" href="/project-NightCoders/assets/index-754705bf.css">
+    <link rel="stylesheet" href="/project-NightCoders/assets/index-0248575f.css">
   </head>
 
   <body>
@@ -967,7 +967,35 @@
 
 
     <!-- Modal window Subscribe -->
-    
+    <div class="subscribe-backdrop visually-hidden">
+  <div class="subscribe-modal">
+    <button class="subscribe-close-btn" type="button">
+      <svg class="subscribe-close-icon" width="24" height="24">
+        <use href="../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="subscibe-bg"></div>
+    <div class="subscribe-wrapper">
+      <h2 class="modal-subscribe-title">
+        Explore our <span> new chocolate</span> first!
+      </h2>
+      <form name="subscribe-form">
+        <div class="sub-form-wrapper">
+          <input
+            class="subscribe-input"
+            type="email"
+            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            title="min lenght after @ is 2"
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="sub-form-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 
     <!-- Swiper script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
