@@ -15,7 +15,7 @@
     />
     
     <script type="module" crossorigin src="/project-NightCoders/assets/index-b53cba2b.js"></script>
-    <link rel="stylesheet" href="/project-NightCoders/assets/index-8c3fea41.css">
+    <link rel="stylesheet" href="/project-NightCoders/assets/index-27034b1f.css">
   </head>
 
   <body>
@@ -23,20 +23,18 @@
     <header class="header">
   <div class="container header-container">
     <nav class="navigation">
-      <a class="logo-link" href="./index.html"
-        ><span class="logo-simply">SIMPLY</span>&nbsp;<span
-          class="logo-chocolate"
-          >CHOCOLATE</span
-        ></a
+      <a class="logo-link" href="./index.html">
+        <span class="logo-simply">SIMPLY</span>&nbsp;
+        <span class="logo-chocolate">CHOCOLATE</span></a
       >
-      <a href="./index.html">
+      <a class="logo-link-icon" href="./index.html">
         <svg class="logo-icon">
           <use href="/project-NightCoders/assets/icons-84a7f737.svg#icon-logo"></use>
         </svg>
       </a>
       <ul class="header-list-nav">
         <li class="header-item-nav">
-          <a class="header-link-nav" href="./index.html">Home</a>
+          <a class="header-link-nav" href="#home">Home</a>
         </li>
         <li class="header-item-nav">
           <a class="header-link-nav" href="#How-made">How it’s made?</a>
@@ -97,7 +95,7 @@
       <div class="mobile-list-container">
         <ul class="mobile-list-nav">
           <li class="mobile-item-nav">
-            <a class="mobile-link-nav" href="./index.html">Home</a>
+            <a class="mobile-link-nav" href="#home">Home</a>
           </li>
           <li class="mobile-item-nav">
             <a class="mobile-link-nav" href="#How-made">How it’s made?</a>
@@ -115,18 +113,24 @@
       </div>
       <ul class="mobile-social-list">
         <li class="mobile-item-social-list">
-          <a class="mobile-social-link" href="https://www.instagram.com/"
-          target="_blank"
-          rel="noopener noreferrer">
+          <a
+            class="mobile-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg class="mobile-icon-soclink">
               <use href="/project-NightCoders/assets/icons-84a7f737.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="mobile-item-social-list">
-          <a class="mobile-social-link" href="https://twitter.com/"
-          target="_blank"
-          rel="noopener noreferrer">
+          <a
+            class="mobile-social-link"
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <svg class="mobile-icon-soclink">
               <use href="/project-NightCoders/assets/icons-84a7f737.svg#icon-twitter"></use>
             </svg>
@@ -139,13 +143,12 @@
 
 
     <main>
-      <section class="hero">
+      <section class="hero" id="mobile-menu">
   <div class="container">
     <h2 class="hero-title">
       Treat yourself or a loved one to <br />
       our finest ingredients for a moment of pure delight!
     </h2>
-
     <div class="hero-btns">
       <ul class="hero-btn-list">
         <li>
@@ -154,10 +157,9 @@
           </button>
         </li>
         <li>
-          <a class="btn-dark" href="#how-its-made">How it&#8217;s made</a>
+          <a class="btn-dark" href="#How-made">How it&#8217;s made</a>
         </li>
       </ul>
-
       <a class="hero-scroll-link" href="#footer">
         <p class="hero-scroll-label">scroll down</p>
         <svg class="hero-scroll-icon" width="28" height="28">
@@ -221,7 +223,6 @@
     </ul>
   </div>
 </section>
-
       <section class="components">
         <div class="container components-cont">
           <h2 class="components-title">
@@ -376,26 +377,35 @@
 
       </section>
 
-      <!-- ? HOW IT'S MADE -->
-
-<section id="How-made" class="how-made-section" id="how-its-made">
+      <section id="How-made" class="how-made-section" id="how-its-made">
   <div class="how-made container">
     <h2 class="how-made-title">
       HOW IT’S <span class="how-made-title-second">MADE?</span>
     </h2>
     <div class="how-container-flex">
       <div class="how-made-wrapper">
-        <img class="how-made-img" srcset="/project-NightCoders/assets/image-video-desktop-0cf66527.jpg 600w, /project-NightCoders/assets/image-video-tablet-7caa357b.jpg 614w, /project-NightCoders/assets/image-video-mobile-e5ee44d3.jpg 335w, /project-NightCoders/assets/image-video-desktop@2x-f56b20f3.jpg 1200w, /project-NightCoders/assets/image-video-tablet@2x-7e209066.jpg 1228w, /project-NightCoders/assets/image-video-mobile@2x-152d84ed.jpg 670w" sizes="(min-width: 1200px) 600px, (min-width: 768px) 614px, (min-width:375px) 335px, 100vw"
-          src="/project-NightCoders/assets/image-video-mobile-e5ee44d3.jpg" alt="How it's made" loading="lazy" />
+        <img
+          class="how-made-img"
+          srcset="/project-NightCoders/assets/image-video-desktop-0cf66527.jpg 600w, /project-NightCoders/assets/image-video-tablet-7caa357b.jpg 614w, /project-NightCoders/assets/image-video-mobile-e5ee44d3.jpg 335w, /project-NightCoders/assets/image-video-desktop@2x-f56b20f3.jpg 1200w, /project-NightCoders/assets/image-video-tablet@2x-7e209066.jpg 1228w, /project-NightCoders/assets/image-video-mobile@2x-152d84ed.jpg 670w"
+          sizes="(min-width: 1200px) 600px, (min-width: 768px) 614px, (min-width:375px) 335px, 100vw"
+          src="/project-NightCoders/assets/image-video-mobile-e5ee44d3.jpg"
+          alt="How it's made"
+          loading="lazy"
+        />
         <svg class="how-made-icons" width="35" height="35">
           <use href="/project-NightCoders/assets/icons-84a7f737.svg#how-made-icons"></use>
         </svg>
       </div>
       <div class="how-made-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/DISjdfkSjc8" title="YouTube video player"
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/DISjdfkSjc8"
+          title="YouTube video player"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="how-made-try">
         <h3 class="how-made-subtitle">
@@ -425,6 +435,7 @@
     </div>
   </div>
 </section>
+
       <section id="Our-products" class="our-product">
   <div class="container">
     <h2 class="product-title">
@@ -444,6 +455,7 @@
                 src="/project-NightCoders/assets/card1-2091b6a4.jpg"
                 alt="Orange chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -462,6 +474,7 @@
                 src="./img/our-products/card2.jpg "
                 alt="Apple&crannberry chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -480,6 +493,7 @@
                 src="./img/our-products/card3.jpg "
                 alt="Lime&sea salt chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -498,6 +512,7 @@
                 src="/project-NightCoders/assets/card4-7ac12f0f.jpg"
                 alt="Pineapple chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -516,6 +531,7 @@
                 src="./img/our-products/card5.jpg "
                 alt="Classic chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -534,6 +550,7 @@
                 src="/project-NightCoders/assets/card6-195309e5.jpg"
                 alt="Honey chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -552,6 +569,7 @@
                 src="/project-NightCoders/assets/card7-fcb6f1cb.jpg"
                 alt="Roasted fruits chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -570,6 +588,7 @@
                 src="/project-NightCoders/assets/card8-d1340714.jpg"
                 alt="Classic white chocolate image"
                 width="230"
+                loading="lazy"
               />
             </div>
             <div class="product-content">
@@ -593,30 +612,26 @@
       Top <span class="tsellers-sub">Sellers</span>
     </h2>
 
-    <ul class="tsellers-list tsellers-anim ">
+    <ul class="tsellers-list tsellers-anim">
       <li class="tsellers-item tsellers-mobonly">
         <picture>
           <source
             media="(min-width: 1200px)"
             srcset="/project-NightCoders/assets/img1-desktop-1bbae235.jpg 1x, /project-NightCoders/assets/img1-desktop@2x-3997e1c8.jpg 2x"
-            type="image/jpg"
           />
           <source
             media="(min-width: 768px)"
             srcset="/project-NightCoders/assets/img1-tablet-88ad0a70.jpg 1x, /project-NightCoders/assets/img1-tablet@2x-98e6179c.jpg 2x"
-            type="image/jpg"
           />
           <source
             media="(min-widht: 375px)"
             srcset="/project-NightCoders/assets/img1-mobile-59d02c8d.jpg 1x, /project-NightCoders/assets/img1-mobile@2x-39aebe7b.jpg 2x"
-            type="image/jpg"
           />
           <img
             class="img-tsellers"
             src="/project-NightCoders/assets/img1-mobile-59d02c8d.jpg"
             alt="chocolate"
-            width=" "
-            height=" "
+            loading="lazy"
           />
         </picture>
         <p class="tsellers-text mobile-only">
@@ -630,24 +645,20 @@
           <source
             media="(min-width: 1200px)"
             srcset="/project-NightCoders/assets/img2-desktop-ac8632fd.jpg 1x, /project-NightCoders/assets/img2-desktop@2x-a8a44793.jpg 2x"
-            type="image/jpg"
           />
           <source
             media="(min-width: 768px)"
             srcset="/project-NightCoders/assets/img2-tablet-df09263c.jpg 1x, /project-NightCoders/assets/img2-tablet@2x-9171563b.jpg 2x"
-            type="image/jpg"
           />
           <source
             media="(min-widht: 375px)"
             srcset="/project-NightCoders/assets/img2-mobile-f33fdc96.jpg 1x, /project-NightCoders/assets/img2-mobile@2x-afc3cc70.jpg 2x"
-            type="image/jpg"
           />
           <img
             class="img-tsellers"
             src="/project-NightCoders/assets/img2-mobile-f33fdc96.jpg"
             alt="chocolate"
-            width=" "
-            height=" "
+            loading="lazy"
           />
         </picture>
       </li>
@@ -656,14 +667,12 @@
           <source
             media="(min-width: 1200px)"
             srcset="/project-NightCoders/assets/img3-desktop-ce8f8475.jpg 1x, /project-NightCoders/assets/img3-desktop@2x-f25643e2.jpg 2x"
-            type="image/jpg"
           />
           <img
             class="img-tsellers"
             src="/project-NightCoders/assets/img3-desktop-ce8f8475.jpg"
             alt="chocolate"
-            width=" "
-            height=" "
+            loading="lazy"
           />
         </picture>
       </li>
@@ -697,6 +706,7 @@
               srcset="/project-NightCoders/assets/reviews1-c05239eb.jpg , /project-NightCoders/assets/reviews1@2x-5ae0e34f.jpg "
               src="/project-NightCoders/assets/reviews1-c05239eb.jpg"
               alt="Victoria Dobrzhanska"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder">
@@ -714,6 +724,7 @@
               srcset="/project-NightCoders/assets/reviews2-d9cfe164.jpg , /project-NightCoders/assets/reviews2@2x-c9145798.jpg "
               src="/project-NightCoders/assets/reviews2-d9cfe164.jpg"
               alt="Nazar Babenko"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder holder-reviews-slide">
@@ -732,6 +743,7 @@
               srcset="/project-NightCoders/assets/reviews3-cfaead6d.jpg , /project-NightCoders/assets/reviews3@2x-6a2d7a6f.jpg "
               src="/project-NightCoders/assets/reviews3-cfaead6d.jpg"
               alt="Olena Kampusch"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder">
@@ -750,6 +762,7 @@
               srcset="/project-NightCoders/assets/reviews4-06a8c393.jpg , /project-NightCoders/assets/reviews4@2x-3b118e41.jpg "
               src="/project-NightCoders/assets/reviews4-06a8c393.jpg"
               alt="Natalia Sus"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder">
@@ -768,6 +781,7 @@
               srcset="/project-NightCoders/assets/reviews5-dcde2755.jpg , /project-NightCoders/assets/reviews5@2x-58359f32.jpg "
               src="/project-NightCoders/assets/reviews5-dcde2755.jpg"
               alt="Danilo Nottingham"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder">
@@ -786,6 +800,7 @@
               srcset="/project-NightCoders/assets/reviews6-9e8e6113.jpg , /project-NightCoders/assets/reviews6@2x-f2637f30.jpg "
               src="/project-NightCoders/assets/reviews6-9e8e6113.jpg"
               alt="Irina Tydnyuk"
+              loading="lazy"
             />
           </div>
           <div class="reviews-slide-holder">
@@ -830,11 +845,7 @@
     <footer class="footer" id="footer">
     <div class="footer-second container">
         <div class="futer-second-first-bloc">
-
-            <h2 class="footer-second-title"><span class="footer-second-title-orange">Chocolate</span> a
-                delicious
-                cure for a bad day</h2>
-
+            <h2 class="footer-second-title"><span class="footer-second-title-orange">Chocolate</span> a delicious cure for a bad day</h2>
             <div class="futer-second-second-bloc">
                 <div class="footer-second-contacs">
                     <p class="footer-second-parahraf">Contact us</p>
@@ -845,28 +856,22 @@
                         </li>
                     </ul>
                 </div>
-
-
-
-
                 <ul class="footer-second-icon-list">
                     <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                             <svg class="  instagram" width="24" height="24">
                                 <use href="/project-NightCoders/assets/icons-84a7f737.svg#icon-instagram"></use>
                             </svg></a></li>
-
                     <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                             <svg class=" twitter" width="24" height="24">
                                 <use href="/project-NightCoders/assets/icons-84a7f737.svg#icon-twitter"></use>
                             </svg></a></li>
                 </ul>
-
             </div>
         </div>
         <div class="footer-thre-bloc">
             <div class="footer-menu">
                 <ul class="list">
-                    <li class="menu-list"><a href="./index.html">Home</a></li>
+                    <li class="menu-list"><a href="#home">Home</a></li>
                     <li class="menu-list"><a href="#How-made">How it's made?</a></li>
                     <li class="menu-list"><a href="#Our-products">Our products</a></li>
                     <li class="menu-list"><a href="#Top-sellers">Top sellers</a></li>
@@ -891,6 +896,7 @@
         sizes="(max-width: 768px) 84px, 120px, 100vw"
         src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEUAVAMBIgACEQEDEQH/xAAxAAEAAgIDAQAAAAAAAAAAAAAABQcECAECBgMBAQEBAQAAAAAAAAAAAAAAAAADAgH/2gAMAwEAAhADEAAAAL/AA48rWEr30qG29z7jWAFQW/Sud4M/QEvivsfBTELK+NcNVSG57c9tWPb6leIrHzuuGwlbzrTnw+/PWZlRWbnUNxYUz1Une2O5ejDbjL617NHdHpncP6Gmc/tBmlM3F9Xc8cgAAAAAAB//xAA4EAACAQQAAwUDCAsAAAAAAAABAgMABAURBhIiByExQVETUmEQFCBCVWKRkhUXMDJAU3FygqGx/9oACAEBAAE/APo+1jDhC6hvd33/ALLO8WRW4aCy07+Bf6q1Nm54p2uGnJfeyxNYvtMgS4SOVy0Pg4P/AFKs7m2vbeO4t5VkicbVh9HtT4kzVrLBjrFngQqWlcHRcGuE+0C8xscNteSNdQDxJPWKyXG8uVM0EKNBGg3rey6nz3V9kI4Iy8r6Hkvmav8AJy3TnXSnpUNuX0z7C/7NdmOeezyU9hLJq0liLDZ6UdKjyGP13XcJ/wAhSSxyDaOrD4Hfy9rkrx3lh7WHUBg0kg96ml9keZGrF5NlkLO2mOgtZixluR88gLOD++niV+I+7SWyINvov6eQougI5mq3yttbDUZYep1ScUcv1nrgrjeKPMQ207kR3BEez6n5OLr66x+HkNq/JcS9CN5rUMV/dTXAltLi8/m6VpD/AFJqYLBPIptmUKSOod4p2U9Smsfl5bdwC3dWR9mIxcwaCsdFfdJ9PhR6iSWNaX3jXT6mkfkcMGbYOxXCuY/TfD+PyBBDyR6f+9CUauN72xssfB85jl5Xk0soAKhvvVmuKrnG4eztsPEkAkjDNcHTF2YdVLfsOeOXqPMdk+tSW3tX3CmtgHQ8O+hhb09TlUH3jUVoI4uSR2kB7wPBaw3Z7e5ixjvILuONHZgFdT5Gh2R5P7Tg/Ia/VBlfLJ2/5Wpex7Lfalt+Vq4Ww0uEwNljZZlkaHn26ggHnctWTxVlk8bPZ3ac8Uq/gfIiuKeFszgOgc9xY7JSTyU1DZXE84SONnd28AN1nMLf2AtjLFIInjXq5SF5vMVHPdOscYDyOABobY1ZcMcTZDRjsnRT5v3VgeAMqhjXJZKf5uvhBFKUFRQJFEkajSooUD4CtD6DIrqVZQQfEGkx+NgJMFnAhPiyIBVxaWtxE0U8EckZ8VdQw/A1DhsTa9NtYwRge6gFLEi+CgfwP//EAB0RAAICAgMBAAAAAAAAAAAAAAABAhEQEgMhMTD/2gAIAQIBAT8AxLlSdLsjJSzLwknrVijRbQpu+1h9yPB6s1ZqxDVlCivl/8QAHhEAAgICAwEBAAAAAAAAAAAAAQIAMRESAxAhMFH/2gAIAQMBAT8A6TgZhk+RkZb7S4pUNkgZjPtUIBBEPEMHB6UgJXsuDYWJuJuP2GzA2JtC5Py//9k="
         alt="Dark choco"
+        loading="lazy"
       />
       <button type="button" class="buynow-item-btn">100 g</button>
     </li>
@@ -900,6 +906,7 @@
         sizes="(max-width: 768px) 84px, 120px, 100vw"
         src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEUAVAMBIgACEQEDEQH/xAAzAAEAAgMBAQEAAAAAAAAAAAAABAcDBQYIAQIBAQACAwAAAAAAAAAAAAAAAAADBAECBf/aAAwDAQACEAMQAAAAv8ED813I513v43E77Gemk6+Vbq5hPGABqfP19+ZKtzqNVh56tYuDdcRdkmN4L/MAAh1Dlq6nbszFVUqPa57Fo3u45rFHU5gAFO0h60qCnbprsbT6aKXlbDh7XGNqOlQAAfAgTDTbIN9QAP/EADEQAAIBAwIEBAMIAwAAAAAAAAECAwQFEQASBhMhMSAiQXEHMmEQFBUWQlFykVJi0f/aAAgBAQABPwD7Hu9vhqVp3kJc+iqSB7nVVeKWjXcFaRsdANUN3p5Yt7ADHfHppr9SbgadTMoGXYdhqhu1JVoSiuhHTzDGgQex8V3NXFzWhDGRWIGqGrrJbdCZj5/NnI1Q3SshqxBJSqEfpuC5B1FOgZ1VFXr2AxqFURFIXHTJ1SxpEjbB0dy/9+LiM0VDbKq4PRpIybfKW2Z3MF1Bd7+96MElRFGkzOEjZcKn8Tq9fma3c2aO4sURQwOwAapeNuJYyu6emb6vHqycUXG7MJaisAjjOzZFHsGf7OrNf74/Fq2mWoLU485P+pG5fFxhbFrrDPDz+SFZXL4J7arqpUR4KtvOh8rY3ZPv31cuIGq7bFSzl+b0DyejY1BFz3CwJvPUNjJzqxQyUVHTUs0UsZkmOBtJIDdM6sdqtcJNbFHuqJFAaV/mIHTxXenEtqq0Zc5TOPY50tNTQu7JCis3cgaZox3A1zlyNmNUVZONo3tq17+WZSejKAPF8SOK56es/B6cunK2SSOp7n5gupOKLs6uRUx7v2EWvzBdqghGq1H8Yxqie/zGR462ALGAWLf8AOqGS9pFTSzVSYkzhUjX9J+o1ZK2pq7tQUizMZIwZ59pKjb+lT4vijwzHLUw3OmkVJpU2yIRjOz109trIHfdFIeh3DGe2oUj34V8/sNWqKvd4sRsAHycdSwA/wAR31QW2sqWVngmjjUYQsu3IP0JGNWShoaLeY4SJ5AAzsQSQPbxcWWr8QtTLDA0ksbAgDqdTU7JWRpIhU58wYYIwNWzh210wSWGkjDMOr46nUMaR9FGNKTqhjbm7mUgAeOroKOsXbU06SD0yOo9joWSggwiczaOwLZxr7hRRjCwLn69dKiL8qgew8P/xAAjEQABBAICAAcAAAAAAAAAAAABAAIDERIgMUEEExQhIlHB/9oACAECAQE/AEfGPyrFesdj+0onvdjdGxekwGVCgSPpRNJacwFELk9naTAuksdClg4dhRCp2nnSZzmScfEp0oKic7zG0O9CAUI2Dhg0/8QAIxEAAgAFBAIDAAAAAAAAAAAAAQIAAxESIAQhMUFScRRRkf/aAAgBAwEBPwCBpktDV7j46Xcbe4cJVqVw09Lano/cOFvFp/DE4okrdBx0OzhLFsv3AqeFMTZZMptwMJVpQeQhCV6ic1yGpxLt5HD/2Q=="
         alt="Choco-nuts"
+        loading="lazy"
       />
       <button type="button" class="buynow-item-btn">200 g</button>
     </li>
@@ -909,6 +916,7 @@
         sizes="(max-width: 768px) 84px, 120px, 100vw"
         src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAEUAVAMBIgACEQEDEQH/xAAxAAEAAgMBAQAAAAAAAAAAAAAABQcDBggEAQEBAQEBAQAAAAAAAAAAAAAAAAMBAgT/2gAMAwEAAhADEAAAAL/R+p5u+Kei829VVSTbDa7sW8huAaBQHX1VTrS33JknXFLQ3q4pM3vz5IdcdLI2S9PlBj59FN1Z1tRkraB4fZlnXD6fZOmLoXlq8O+N5FvOAx5Bzpr/AE1X3n9NV+vcvfx3XvQeOdrILQAAAAAA/8QANhAAAgECBAMGAggHAAAAAAAAAQIDBBEABRIhBkFRBxMgIjFhI0IUFTAyUmJxkWOBkqLC0fD/2gAIAQEAAT8A+zzDOcoyrQcwrooNQuoY7n9AMVPafw1TIRAKic9USw/vtir7XJ7WospRB1lctik7Vc7iqe9rYYZKe28SDRim7UapwDLl0TD8jlcUvadQso15ZMvUIwc4yjjbJc2nhgTvY5JNk7wAAnw8e8JtmETV9OC7ogEkfVV5riSF6dyjC4PPkRhkK2Zd0J/4HDRN6/KR8xtbFHK8LMqk93f16XwDJGRKHuCfONQP88K81M3eKo0Mb3UKSrE7MMcJcQyZrSiCrQrVxjc2trUc/DxzwcqiTMKOL4R3mQfIfxjHxKaXS63U8vQMMGFoXDxspiYfObbHkwxUxBEaelclQdJ6C/I4oZxLGATuMRhdQjeRdA+7e/7bDFBPNQ1kb01UFZCGiff+nHD+dQZvRLKrJ36C0sYN9Df6PgIBBBFwccb8IfQWetpEIpHbcD1hY4hFRBM8Zj7xGHnXkR1vy9jgxCkczpPqhYlfu6tXVG5YWIozVUG8RazoNzHc7E9R74+ssuK2M5ufy2IIxHVUUigPUlT7L6H2N8cP5ycsrEq46i7jZxbZ1xl2ZUeYUcdXTS60bboQR6jwSRpIjxyIGRgQykXBBxxrwg2VyGaEFqKQ+RucR/CcUq1MLyKYg8LeWQMbIR+vIjkcRR09NUNLFPI6rfZV9VPJjuMZRNkj1UT1RVKZQXlhjQtMzL6BWN7DGdcMcHU1H9PoqyUpKQIYkO4P8QnFLlURZ2MssajmCN8cDZLUZZAawV5lp6qG4hK6SGvsT4cxpjJQzxikWq1rYwswQMCepxneSQ0ldEDR1sQIf4dQotb8rDZsClMVzCxi3307XB5m+xwh01Kl4ZQFse8SPz3/AMhioEBUxq5MDebUV0uOmpDzOKWGaSIolFK0Km9kXUbN1W2+OGYa2lyiCKpPLUoIIZAeRv4s74bos6p1jnaRHUeR0cjTf2xWdmxInNNP9wgxIR5HXFX2f5+oj7qRZQR8jhAPbzWxlvBWf01S8rpEptZWdwQn6AXxk+RR0Kympigkdxa2j9yeRv8Abf/EACERAAIBAwQDAQAAAAAAAAAAAAECABESMQMQICEiMEFR/9oACAECAQE/AKiXCXr+wGu7r9GzdGI9Dwdfo2tUDM027oDXg6NXrEsbBWaWnTyOfR//xAAiEQACAQMEAgMAAAAAAAAAAAABAgADERIQITFBEyAiMFH/2gAIAQMBAT8ACk9TBp43/IQRqj9HRdxaOgYQgg21R+jODM2J2F5VXa5Fj6JUSwvzM15DCVamXxHH0f/Z"
         alt="Milk choco"
+        loading="lazy"
       />
       <button type="button" class="buynow-item-btn">300 g</button>
     </li>
@@ -939,7 +947,6 @@
         </li>
       </ul>
     </label>
-
     <label class="modal-buynow-label">
       Email
       <input
@@ -949,7 +956,6 @@
         placeholder="Enter your email"
       />
     </label>
-
     <label class="modal-buynow-label">
       Phone number
       <input
